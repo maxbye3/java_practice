@@ -7,15 +7,15 @@ public class CreatePhoneNumber {
     }
     
     public static String createPhoneNumber(int[] numbers) {
-        String phoneString = "(";  
-        for (int i = 0; i < numbers.length; i++) {
-            phoneString += numbers[i];
-            if(i == 2){
-                phoneString += ") ";
-            } else if (i == 5){
-                phoneString += "-";
-            }
-        }
+        // String phoneString = "(";  
+        // for (int i = 0; i < numbers.length; i++) {
+        //     phoneString += numbers[i];
+        //     if(i == 2){
+        //         phoneString += ") ";
+        //     } else if (i == 5){
+        //         phoneString += "-";
+        //     }
+        // }
         // return phoneString; 
         return String.format("(%d%d%d) %d%d%d-%d%d%d%d", IntStream.of(numbers).boxed().toArray());
     }
