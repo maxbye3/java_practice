@@ -1,4 +1,4 @@
-public class TrollKata {
+public class Kyu9TrollKata {
     public static void main(String[] args) throws Exception {
         String str = "This website is for losers LOL!";
         System.out.println(disemvowel(str));

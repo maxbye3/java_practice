@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class BusKata {
+public class Kyu7BusKata {
     public static void main(String[] args) throws Exception {
         ArrayList<int[]> myList = new ArrayList<int[]>();
 

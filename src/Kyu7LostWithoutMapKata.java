@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class LostWithoutMapKata {
+public class Kyu7LostWithoutMapKata {
     public static void main(String[] args) throws Exception {
         int[] arr = {1,2,3};
         System.out.println(doubleArr(arr));

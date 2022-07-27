@@ -1,4 +1,4 @@
-public class SumOfDigitaKata {
+public class Kyu6SumOfDigitaKata {
     public static void main(String[] args) throws Exception {
         System.out.println(digital_root(132189));
        

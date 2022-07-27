@@ -1,4 +1,4 @@
-public class MatchingDna {
+public class Kyu8MatchingDna {
     public static void main(String[] args) throws Exception {
         String dna = DnaStrand("ATTGC");
         System.out.println("dna" + dna);
