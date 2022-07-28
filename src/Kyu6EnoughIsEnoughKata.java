@@ -10,7 +10,6 @@ public class Kyu6EnoughIsEnoughKata {
     }   
     
     public static int[] deleteNth(int[] elements, int maxOccurrences) {
-		
         HashMap<Integer, Integer> map = new HashMap<>();
         return Arrays.stream(elements)
                 .filter(element -> map.merge(element, 1, Integer::sum) <= maxOccurrences)
